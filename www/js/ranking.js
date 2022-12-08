@@ -17,6 +17,20 @@ function toRanking() {
 // 【mBaaS】保存したデータの検索と取得
 function checkRanking() {
     // **********【問題２】ランキングを表示しよう！**********
+
+   /*
+    var Score = ncmb.DataStore("score");
+
+    Score.order("score", true)
+             .fetchAll()
+             .limit(5)
+             .then(function(results){
+                 setData(results);
+             })
+             .catch(function(err){
+                 alert("検索に失敗しました．");
+             });
+    */
     
     
     
